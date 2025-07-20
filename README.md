@@ -20,7 +20,7 @@ Here's an overview of the IoT projects currently available in this repository:
     * 4x4 Membrane Keypad
     * Servo Motor
     * LEDs
-* **Location:** `keypad-lock-system/`
+* **Location:** `https://github.com/Yash241104/iot-projects/tree/main/Keypad-based%20Door%20Lock%20System/keypad_doorlock`
 
 ### 2. Cloud-Based Weather Monitor (ESP32 & ThingSpeak)
 
