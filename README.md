@@ -14,13 +14,13 @@ Here's an overview of the IoT projects currently available in this repository:
 * **Key Features:**
     * PIN-based authentication.
     * Servo motor control for lock/unlock action.
-    * LED indicator for system status (e.g., locked, unlocked, wrong PIN).
+    * LED indicator for system status 
 * **Components/Technologies:**
-    * Microcontroller (e.g., Arduino, ESP32)
+    * Microcontroller 
     * 4x4 Membrane Keypad
     * Servo Motor
     * LEDs
-* **Location:** `keypad-lock-system/` (or similar folder name you'll use)
+* **Location:** `keypad-lock-system/`
 
 ### 2. Cloud-Based Weather Monitor (ESP32 & ThingSpeak)
 
@@ -34,4 +34,4 @@ Here's an overview of the IoT projects currently available in this repository:
     * DHT11 Temperature and Humidity Sensor
     * Wi-Fi Connectivity
     * ThingSpeak IoT Platform
-* **Location:** `cloud-weather-monitor/` (or similar folder name you'll use)
+* **Location:** `cloud-weather-monitor/` 
