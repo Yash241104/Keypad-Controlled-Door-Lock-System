@@ -21,15 +21,13 @@ byte rowPins[ROWS] = {26, 25, 33, 32}; // Example GPIOs for rows (R1-R4)
 // IMPORTANT: Ensure these match your physical wiring!
 byte colPins[COLS] = {19, 18, 5, 17};  // Example GPIOs for columns (C1-C4)
 
-// Create the Keypad object
+// Create the Keypad obj
 Keypad customKeypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 // --- Servo Motor Configuration ---
 #define SERVO_PIN 13       // ESP32 GPIO pin connected to the servo's signal wire
 Servo doorServo;           // Servo object
 
-// Define the angles for locked and unlocked states (adjust these for your servo!)
-// You will likely need to experiment with your specific servo to find the best angles.
 const int LOCKED_ANGLE = 0;   // Example: Servo at 0 degrees for locked
 const int UNLOCKED_ANGLE = 90; // Example: Servo at 90 degrees for unlocked
 
